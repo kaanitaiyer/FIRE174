@@ -48,7 +48,12 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <p>Only the original tweet and two reply tweets have been encoded. Seven tweets in the thread were not encoded as it did not pertain to the project topic.</p>
+      <editorialDecl>
+        <p>Only the original tweet and two reply tweets have been encoded. Seven tweets in the thread were not encoded as it did not pertain to the project topic.</p>
+      </editorialDecl>
+      <projectDesc>
+        <p>This project aims to provide students, scholars, practitioners with a brief introduction to the work that focuses on the Black community's resistance to news media's historically bias narrative—which largely criminalizes the community—in digital spaces.</p>
+      </projectDesc>
     </encodingDesc>
   <profileDesc>
     <langUsage>
@@ -79,5 +84,5 @@
 </div>
 </div>
 </body>
-</text> 
+</text>
 </TEI>
