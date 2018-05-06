@@ -141,7 +141,7 @@
     <body>
        <div type="orginaltweet">
          <p>One of these young boys is <persName ref="https://www.theroot.com/tamir-rice-found-guilty-of-being-young-free-and-black-1790862178">Tamir Rice</persName>(right). He was 12 years old when killed by a cop.</p>
-         <p>The other is <persName>Nikolas Cruz</persName>, who went into #Parkland <choice><sic>&</sic><corr>and</corr></choice> killed 17 <corr>people</corr>. <seg type="criminality">One was described as a thug; the other was called a "broken child."</seg></p> <!--I assigned a criminality segment to this sentence because throughout the semester we have discussed how Black people, especially Black men, are criminalized to discredit their pain and suffering.  -->
+         <p>The other is <persName>Nikolas Cruz</persName>, who went into #Parkland <choice><sic>&amp;</sic><corr>and</corr></choice> killed 17 <corr>people</corr>. <seg type="criminality">One was described as a thug; the other was called a "broken child."</seg></p> <!--I assigned a criminality segment to this sentence because throughout the semester we have discussed how Black people, especially Black men, are criminalized to discredit their pain and suffering.  -->
          <p>Amazing when the media decides to offer humanity.</p>
         <figure>
           <graphic url="https://pbs.twimg.com/media/DWLpfO5VAAAb220.jpg"/>
