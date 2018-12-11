@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+      <titleStmt>
+        <title type="main">Fire + Freedom</title>
+        <title type="sub">Freedom + Protest Coverage: Digital Edition</title>
+        <author>
+          <persName xml:id="JLU">
+            <forename>Jessica</forename>
+            <surname>Lu</surname>
+          </persName>
+          <orgName xml:id="AADHum">African American History, Culture, and Digital Humanities (<abbr>AADHum</abbr>) Initiative</orgName>
+        </author>
+      <respStmt>
+        <resp>Encoded by</resp>
+          <persName xml:id="KIYER">
+            <forename>Kaanita</forename>
+            <surname>Iyer</surname>
+          </persName>
+      </respStmt>
+      <respStmt>
+        <resp>Original text transcribed by</resp>
+          <persName ref="#KIYER">
+            <forename>Kaanita</forename>
+            <surname>Iyer</surname>
+          </persName>
+        </respStmt>
+      <respStmt>
+        <resp>Original TEI template provided by</resp>
+          <persName xml:id="RAFF">
+            <forename>Raffaele</forename>
+            <surname>Viglianti</surname>
+          </persName>
+          <orgName xml:id="MITH">Maryland Institute for Technology in the Humanities (<abbr>MITH</abbr>)</orgName>
+        </respStmt>
+      <funder>
+          <orgName xml:id="MELLON">Andrew W. Mellon Foundation</orgName>
+          <orgName xml:id="FIRE">First-Year Innovation and Research Experience (<abbr>FIRE</abbr>)</orgName>
+      </funder>
+    </titleStmt>
+    <editionStmt>
+      <edition n="1">First Edition</edition>
+    </editionStmt>
+    <extent>
+      <measure unit="pages" quantity="4">4 pages of original source material</measure>
+    </extent>
+    <publicationStmt>
+      <publisher>
+        <orgName ref="#AADHum">African American History, Culture, and Digital Humanities (<abbr>AADHUM</abbr>) Initiative</orgName>
+      </publisher>
+      <pubPlace>
+        <settlement>College Park</settlement>
+        <region>Maryland (<abbr>MD</abbr>)</region>
+      </pubPlace>
+      <date when="2018-12-11">11 December 2018</date>
+      <availability status="free">
+          <p>In the public domain.</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+        <title type="main">Encoding for Black Lives: Legacies of Resistance and Reinvention in the (Re)Making of Black Freedom Online</title>
+        <title type="sub">Protest Coverage</title>
+        <respStmt>
+            <resp>Edited by</resp>
+            <persName ref="#JLU">
+              <forename>Jessica</forename>
+              <surname>Lu</surname>
+            </persName>
+        </respStmt>
+        <respStmt>
+            <resp>Texts identified and assembled by</resp>
+            <persName ref="#KIYER">
+              <forename>Kaanita</forename>
+              <surname>Iyer</surname>
+            </persName>
+        </respStmt>
+    </seriesStmt>
+    <sourceDesc>
+      <listBibl>
+      <bibl>
+        <title> type="main">'In Ferguson, Washington Post reporter Wesley Lowery gives account of his arrest</title>
+        <author>
+          <persName xml:id="WLOW">
+            <forename>Wesley</forename>
+            <surname>Lowery</surname>
+          </persName>
+        </author>
+        <publisher>
+          <orgName xml:id="WAPO">
+            <name>The Washington Post</name>
+          </orgName>
+            <placeName>
+            <settlement>Washington, Dictrict of Columbia</settlement>
+            <country>United States of America (<abbr>USA</abbr>)</country>
+          </placeName>
+        </publisher>
+        <date when="2014-08-14">14 August 2018</date>
+        <pubPlace>
+          <settlement>Ferguson</settlement>
+          <region>Missouri</region>
+          <country>United States of America (<abbr>USA</abbr>)</country>
+        </pubPlace>
+        <date when="2015-04-27">27 April 2015</date>
+      </bibl>
+      <bibl xml:id="JLUDISS">
+          <title type="main">Reckoning with Freedom</title>
+          <title type="sub">Legacies of Exclusion, Dehumanization, and Black Resistance in the Rhetoric of the Freedmen's Bureau</title>
+          <author>
+              <persName ref="#JLU">
+                <forename>Jessica</forename>
+                <surname>Lu</surname>
+              </persName>
+          </author>
+          <publisher>
+            <orgName xml:id="UMD">University of Maryland</orgName>
+          </publisher>
+          <pubPlace>
+            <settlement>College Park</settlement>
+            <region>Maryland (<abbr>MD</abbr>)</region>
+            <country>United States of America (<abbr>USA</abbr>)</country>
+          </pubPlace>
+          <date when="2018-06-28">28 June 2018</date>
+      </bibl>
+      <bibl>
+          <interpGrp resp="#LUDISS" type="freedom-ideas">
+              <desc>Ideational analysis of freedom.</desc>
+              <interp xml:id="STRAND1">Strand 1</interp>
+              <interp xml:id="STRAND2">Strand 2</interp>
+              <interp xml:id="STRAND3">Strand 3</interp>
+              <interp xml:id="STRAND4">Strand 4</interp>
+              <interp xml:id="STRAND5">Strand 5</interp>
+          </interpGrp>
+      </bibl>
+      </listBibl>
+      <biblStruct type="article"> <!-- Provided as an example of using the sourceDesc to cite Black scholarship that grounds the encoder's decisions during the markup process. -->
+        <analytic>
+          <author>
+            <persName xml:id="SHART">
+              <forename>Saidiya</forename>
+              <surname>Hartman</surname>
+            </persName>
+          </author>
+          <title>Venus in Two Acts</title>
+        </analytic>
+        <monogr>
+          <title level="j">Small Axe</title>
+          <imprint>
+            <publisher>Duke University Press</publisher>
+            <pubPlace>
+              <settlement>Durham</settlement>
+              <region>North Carolina (<abbr>NC</abbr>)</region>
+              <country>United States of America (<abbr>USA</abbr>)</country>
+            </pubPlace>
+            <date when="2008-06">June 2008</date>
+          </imprint>
+          <biblScope unit="page" from="1" to="14">pp. 1-14</biblScope>
+        </monogr>
+        <note>In this article, Saidiya Hartman theorizes archival violence and its disproportionate impact on the lives of Black women. Hartman argues that archival traces and texts corroborate representations of Black women as always dead or dying, if not in relentless peril. Such violence dehumanizes Black women, not just in the historical record, but also in contemporary life. This theorizing of archival violence contributes to this digital surrogate insofar as every attempt has been made to recognize and amplify the human activities and accomplishments of Black women, with particular attention paid to their life experiences beyond suffering and pain.</note>
+      </biblStruct>
+    </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+    <editorialDecl>
+      <hyphenation eol="none">
+        <p>Except where normalization disrupts the formatting of the digital surrogate when rendered online, all end-of-line hyphenation in the original source material has been reformed. The <gi>choice</gi> element has been used to enclose <gi>orig</gi> and <gi>reg</gi> elements giving the original hyphenation and regularized version, respectively.</p>
+      </hyphenation>
+      <normalization method="markup">
+        <p>All obvious spelling and typographical errors in the original source material is corrected. The <gi>choice</gi> element has been used to enclose <gi>sic</gi> and <gi>corr</gi> elements giving the original error and correction, respectively.</p>
+      </normalization>
+      <normalization method="silent">
+        <p>Whenever necessary, spacing between words and following punctuation has been regularized to zero spaces; spacing between words has been regularized to one space.</p>
+      </normalization>
+      <normalization source="https://www.newyorker.com/magazine/2017/05/15/the-case-for-black-english">
+        <p>Instances of African American Vernacular English have purposefully NOT been adjusted to comply with American English language practices. African American Vernacular English is wholly valid in its form, features, and creativity, despite the dominance and presumed correctness of American English.</p>
+      </normalization>
+      <p>To represent changes and/or corrections made by the original source authors BEFORE the encoding process, encoders use <gi>add</gi>, <gi>del</gi>, and <gi>subst</gi>.</p>
+      <p>Encoding includes the use of <gi>supplied</gi> to provide clarification and supporting content, including out-links to relevant digital content and citations of Black and Black-centric academic research.</p>
+    </editorialDecl>
+    <projectDesc>
+      <p>This project seeks to identify, collect, preserve, and analyze FREEDOM discourse, as constituted and argued by Black users online. Directed by Dr. Jessica H. Lu, this project is currently being advanced by several undergraduate students at the University of Maryland, College Park: Sophia Crooks, Kayla Graham, Kaanita Iyer, Ariana Lawson, Alice Liu, and Courtney Richardson.</p>
+    </projectDesc>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="AAVE">African American Vernacular English</language>
+        <language ident="us-en">Standard American English</language>
+        <language ident="APSTYLE">Associated Press Style
+          <note>Since this collection aims to gather journalistic work, many publications use the Associated Press Style to standardize their work. The AP Style focuses not only on grammar but format and synxtax. It is important to recognize this as a language because often times journalistic work can appear more rigid and choppy than spoken word or other writing and that is because of AP Style. For example, it eliminates the word "on" and abbrevaites states, address, and dates, just to name a few</note>
+        </language>
+      </langUsage>
+      <particDesc>
+        <listOrg>
+          <org>
+            <orgName ref="#UMD">
+              <name ref="https://lccn.loc.gov/n79054042">University of Maryland, College Park</name>
+              <abbr>UMD</abbr>
+            </orgName>
+            <idno type="LCAF">n 79054042</idno>
+            <placeName>
+              <settlement>College Park</settlement>
+              <region>Maryland (<abbr>MD</abbr>)</region>
+              <country>United States of America (<abbr>USA</abbr>)</country>
+            </placeName>
+            <note>The University of Maryland houses the African American History, Culture and Digital Humanities department, which directs and funds this project.</note>
+          </org>
+          <org>
+            <orgName ref="WAPO">
+              <name>The Washington Post</name>
+              <note>The Washington Post is a daily newspaper and newsite that serves and covers the Washington D.C., and bordering parts of Maryland and Virginia extensively, while also placing an emphasis on national and internation news.</note>
+            </orgName>
+              <placeName>
+              <settlement>Washington, District of Columbia</settlement>
+              <country>United States of America (<abbr>USA</abbr>)</country>
+            </placeName>
+            <note></note>
+            </org>
+        </listOrg>
+        <listPerson>
+          <person>
+            <persName ref="#WLOW">
+                <forename>Wesley</forename>
+                <surname>Lowery</surname>
+              </persName>
+            <note>Wesley Lowery is a Pultizer Prize-winning journalist for The Washington Post and has extensively covered the Black Lives Matter movement.</note>
+          </person>
+          <person>
+            <persName>
+                <forename>Ryan</forename>
+                <surname>Reilly</surname>
+              </persName>
+            <note>Ryan Reilly was covering the protests along with Lowery. He is a senior justice reporter at the Huffington Post.</note>
+          </person>
+          <person>
+            <persName>
+                <forename>Martin</forename>
+                <surname>Baron</surname>
+              </persName>
+            <note>Martin Baron is the Washington Post's Executive Editor.</note>
+          </person>
+        </listPerson>
+        <personGrp>
+          <persName xml:id="BLK">Black and African American people</persName>
+          <note>The identification and amplification of this person group is necessary for the reading and interpretation of this text because the series of tweets describes the journey of a man at a Black Lives Matter protest and how he felt his status as a full human diminish at that moment, even using the historically negative and hateful word "nigger" to describe the feeling.</note>
+          <persName xml:id="JOURNOS">Black Journalists</persName>
+          <note>As this is a collection of journalist work by Black journalists, it is important to identify this group and recognize that while they are Black people, which makes the protest they cover very personal to them and thus, they are able to make personal connections and often produce better work than journalists of other races covering the same protests, they might always represent the opinion and experiences of all Black people as they do have certain priviliges, including education and a larger voice through their following and support from their publication.</note>
+        </personGrp>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change>Identify and explain a substantive change, made on INSERT DATE HERE.</change>
+        <change>Indentify and explain the next substantive change, made on INSERT DATE HERE.</change>
+      </listChange>
+    </revisionDesc>
+    </teiHeader>
+    <text>
+      <body>
+      <p>For the past week in <placeName><settlement>Ferguson</settlement></placeName>, reporters have been using the <orgName>McDonald</orgName>’s a few blocks from the scene of <persName ref="MIKE">Michael Brown</persName>’s shooting as a staging area. Demonstrations have blown up each night nearby. But inside there’s WiFi and outlets, so it’s common for reporters to gather there.</p>
+      <p>That was the case Wednesday. My phone was just about to die, so as I charged it, I used the time to respond to people on <orgName>Twitter</orgName> and do a little bit of a Q&amp;A since I wasn’t out there covering the protests.</p>
+      <p>As I sat there, many armed officers came in — some who were dressed as normal officers, others who were dressed with more gear.</p>
+      <p>Initially, both <persName>Ryan Reilly</persName> of the <orgName>Huffington Post</orgName> and I were asked for identification. I was wearing my lanyard, but Ryan asked why he had to show his ID. They didn’t press the point, but one added that if we called 911, no one would answer.</p>
+      <p>Then they walked away. Moments later, the police reemerged, telling us that we had to leave. I pulled my phone out and began recording video.</p>
+      <p>An officer with a large weapon came up to me and said, “Stop recording.”</p>
+      <p>I said, “Officer, do I not have the right to record you?”</p>
+      <p>He backed off but told me to hurry up. So I gathered my notebook and pens with one hand while recording him with the other hand.</p>
+      <p>As I exited, I saw Ryan to my left, having a similar argument with two officers. I recorded him, too, and that angered the officer. As I made my way toward the door, the officers gave me conflicting information.</p>
+      <p>One instructed me to exit to my left. As I turned left, another officer emerged, blocking my path.</p>
+      <p>“Go another way,” he said.</p>
+      <p>As I turned, my backpack, which was slung over one shoulder, began to slip. I said, “Officers, let me just gather my bag.” As I did, one of them said, “Okay, let’s take him.”</p>
+      <p>Multiple officers grabbed me. I tried to turn my back to them to assist them in arresting me. I dropped the things from my hands.</p>
+      <p>“My hands are behind my back,” I said. “I’m not resisting. I’m not resisting.” At which point one officer said: “You’re resisting. Stop resisting.”</p>
+      <p>That was when I was most afraid — more afraid than of the tear gas and rubber bullets.</p>
+      <p>As they took me into custody, the officers slammed me into a soda machine, at one point setting off the Coke dispenser. They put plastic cuffs on me, then they led me out the door.</p>
+      <p>I could see Ryan still talking to an officer. I said: “Ryan, tweet that they’re arresting me, tweet that they’re arresting me.”</p>
+      <p>He didn’t have an opportunity, because he was arrested as well.</p>
+      <p>The officers led us outside to a police van. Inside, there was a large man sitting on the floor between the two benches. He began screaming: “I can’t breathe! Call a paramedic! Call a paramedic!”</p>
+      <p>Ryan and I asked the officers if they intended to help the man. They said he was fine. The screaming went on for the 10 to 15 minutes we stood outside the van.</p>
+      <p>“I’m going to die!” he screamed. “I’m going to die! I can’t breathe! I’m going to die!”</p>
+      <p>Eventually a police car arrived. A woman — with a collar identifying her as a member of the clergy — sat in the back. Ryan and I crammed in next to her, and we took the three-minute ride to the Ferguson Police Department. The woman sang hymns throughout the ride.</p>
+      <p>During this time, we asked the officers for badge numbers. We asked to speak to a supervising officer. We asked why we were being detained. We were told: trespassing in a <orgName>McDonald</orgName>’s.</p>
+      <p>“I hope you’re happy with yourself,” one officer told me. And I responded: “This story’s going to get out there. It’s going to be on the front page of <orgName>The Washington Post tomorrow</orgName>.”</p>
+      <p>And he said, “Yeah, well, you’re going to be in my jail cell tonight.”</p>
+      <p>Once at the station, we were processed, our pockets emptied. No mug shots. They removed our restraints and put us in a holding cell. Ryan was able to get ahold of his dad. I called my mom, but I couldn’t get through. I couldn’t remember any phone numbers.</p>
+      <p>We were in there for what felt like 10 or 15 minutes. Then the processing officer came in.</p>
+      <p>“Who’s media?” he asked.</p>
+      <p>We said we were. And the officer said we were both free to go. We asked to speak to a commanding officer. We asked to see an arrest report. No report, the officer told us, and no, they wouldn’t provide any names.</p>
+      <p>I asked if there would ever be a report. He came back with a case number and said a report would be available in a week or two.</p>
+      <p>“The chief thought he was doing you two a favor,” he said.</p>
+      <p>The <orgName>Ferguson Police Department</orgName> did not immediately respond to a request for comment on Lowery’s detention.</p>
+      <p>The following is a statement on the incident from Washington Post Executive Editor <persName>Martin D. Baron</persName>:</p>
+        <p>Wesley has briefed us on what occurred, and there was absolutely no justification for his arrest.</p>
+        <p>He was illegally instructed to stop taking video of officers. Then he followed officers’ instructions to leave a McDonald’s — and after contradictory instructions on how to exit, he was slammed against a soda machine and then handcuffed. That behavior was wholly unwarranted and an assault on the freedom of the press to cover the news. The physical risk to Wesley himself is obvious and outrageous.</p>
+        <p>After being placed in a holding cell, he was released with no charges and no explanation. He was denied information about the names and badge numbers of those who arrested him.</p>
+        <p>We are relieved that Wesley is going to be OK. We are appalled by the conduct of police officers involved.</p>
+    </body>
+  </text>
+</TEI>
