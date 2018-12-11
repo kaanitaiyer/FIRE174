@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+      <titleStmt>
+        <title type="main">Fire + Freedom</title>
+        <title type="sub">Freedom + Protest Coverage: Digital Edition</title>
+        <author>
+          <persName xml:id="JLU">
+            <forename>Jessica</forename>
+            <surname>Lu</surname>
+          </persName>
+          <orgName xml:id="AADHum">African American History, Culture, and Digital Humanities (<abbr>AADHum</abbr>) Initiative</orgName>
+        </author>
+      <respStmt>
+        <resp>Encoded by</resp>
+          <persName xml:id="KIYER">
+            <forename>Kaanita</forename>
+            <surname>Iyer</surname>
+          </persName>
+      </respStmt>
+      <respStmt>
+        <resp>Original text transcribed by</resp>
+          <persName ref="#KIYER">
+            <forename>Kaanita</forename>
+            <surname>Iyer</surname>
+          </persName>
+        </respStmt>
+      <respStmt>
+        <resp>Original TEI template provided by</resp>
+          <persName xml:id="RAFF">
+            <forename>Raffaele</forename>
+            <surname>Viglianti</surname>
+          </persName>
+          <orgName xml:id="MITH">Maryland Institute for Technology in the Humanities (<abbr>MITH</abbr>)</orgName>
+        </respStmt>
+      <funder>
+          <orgName xml:id="MELLON">Andrew W. Mellon Foundation</orgName>
+          <orgName xml:id="FIRE">First-Year Innovation and Research Experience (<abbr>FIRE</abbr>)</orgName>
+      </funder>
+    </titleStmt>
+    <editionStmt>
+      <edition n="1">First Edition</edition>
+    </editionStmt>
+    <extent>
+      <measure unit="pages" quantity="4">4 pages of original source material</measure>
+    </extent>
+    <publicationStmt>
+      <publisher>
+        <orgName ref="#AADHum">African American History, Culture, and Digital Humanities (<abbr>AADHUM</abbr>) Initiative</orgName>
+      </publisher>
+      <pubPlace>
+        <settlement>College Park</settlement>
+        <region>Maryland (<abbr>MD</abbr>)</region>
+      </pubPlace>
+      <date when="2018-12-11">11 December 2018</date>
+      <availability status="free">
+          <p>In the public domain.</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+        <title type="main">Encoding for Black Lives: Legacies of Resistance and Reinvention in the (Re)Making of Black Freedom Online</title>
+        <title type="sub">Protest Coverage</title>
+        <respStmt>
+            <resp>Edited by</resp>
+            <persName ref="#JLU">
+              <forename>Jessica</forename>
+              <surname>Lu</surname>
+            </persName>
+        </respStmt>
+        <respStmt>
+            <resp>Texts identified and assembled by</resp>
+            <persName ref="#KIYER">
+              <forename>Kaanita</forename>
+              <surname>Iyer</surname>
+            </persName>
+        </respStmt>
+    </seriesStmt>
+    <sourceDesc>
+      <listBibl>
+      <bibl>
+        <title> type="main">'Burn, baby, burn': What I saw as a black<corr>Black</corr>journalist covering the L.A. riots 25 years ago</title>
+        <author>
+          <persName xml:id="SMONROE">
+            <forename>Sylvester</forename>
+            <surname>Monroe</surname>
+          </persName>
+        </author>
+        <publisher>
+          <orgName xml:id="WAPO">
+            <name>The Washington Post</name>
+          </orgName>
+            <placeName>
+            <settlement>Washington, Dictrict of Columbia</settlement>
+            <country>United States of America (<abbr>USA</abbr>)</country>
+          </placeName>
+        </publisher>
+        <date when="2017-04-28">28 April 2017</date>
+      </bibl>
+      <bibl xml:id="JLUDISS">
+          <title type="main">Reckoning with Freedom</title>
+          <title type="sub">Legacies of Exclusion, Dehumanization, and Black Resistance in the Rhetoric of the Freedmen's Bureau</title>
+          <author>
+              <persName ref="#JLU">
+                <forename>Jessica</forename>
+                <surname>Lu</surname>
+              </persName>
+          </author>
+          <publisher>
+            <orgName xml:id="UMD">University of Maryland</orgName>
+          </publisher>
+          <pubPlace>
+            <settlement>College Park</settlement>
+            <region>Maryland (<abbr>MD</abbr>)</region>
+            <country>United States of America (<abbr>USA</abbr>)</country>
+          </pubPlace>
+          <date when="2018-06-28">28 June 2018</date>
+      </bibl>
+      <bibl>
+          <interpGrp resp="#LUDISS" type="freedom-ideas">
+              <desc>Ideational analysis of freedom.</desc>
+              <interp xml:id="STRAND1">Strand 1</interp>
+              <interp xml:id="STRAND2">Strand 2</interp>
+              <interp xml:id="STRAND3">Strand 3</interp>
+              <interp xml:id="STRAND4">Strand 4</interp>
+              <interp xml:id="STRAND5">Strand 5</interp>
+          </interpGrp>
+      </bibl>
+      </listBibl>
+      <biblStruct type="article"> <!-- Provided as an example of using the sourceDesc to cite Black scholarship that grounds the encoder's decisions during the markup process. -->
+        <analytic>
+          <author>
+            <persName xml:id="SHART">
+              <forename>Saidiya</forename>
+              <surname>Hartman</surname>
+            </persName>
+          </author>
+          <title>Venus in Two Acts</title>
+        </analytic>
+        <monogr>
+          <title level="j">Small Axe</title>
+          <imprint>
+            <publisher>Duke University Press</publisher>
+            <pubPlace>
+              <settlement>Durham</settlement>
+              <region>North Carolina (<abbr>NC</abbr>)</region>
+              <country>United States of America (<abbr>USA</abbr>)</country>
+            </pubPlace>
+            <date when="2008-06">June 2008</date>
+          </imprint>
+          <biblScope unit="page" from="1" to="14">pp. 1-14</biblScope>
+        </monogr>
+        <note>In this article, Saidiya Hartman theorizes archival violence and its disproportionate impact on the lives of Black women. Hartman argues that archival traces and texts corroborate representations of Black women as always dead or dying, if not in relentless peril. Such violence dehumanizes Black women, not just in the historical record, but also in contemporary life. This theorizing of archival violence contributes to this digital surrogate insofar as every attempt has been made to recognize and amplify the human activities and accomplishments of Black women, with particular attention paid to their life experiences beyond suffering and pain.</note>
+      </biblStruct>
+    </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+    <editorialDecl>
+      <hyphenation eol="none">
+        <p>Except where normalization disrupts the formatting of the digital surrogate when rendered online, all end-of-line hyphenation in the original source material has been reformed. The <gi>choice</gi> element has been used to enclose <gi>orig</gi> and <gi>reg</gi> elements giving the original hyphenation and regularized version, respectively.</p>
+      </hyphenation>
+      <normalization method="markup">
+        <p>All obvious spelling and typographical errors in the original source material is corrected. The <gi>choice</gi> element has been used to enclose <gi>sic</gi> and <gi>corr</gi> elements giving the original error and correction, respectively.</p>
+      </normalization>
+      <normalization method="silent">
+        <p>Whenever necessary, spacing between words and following punctuation has been regularized to zero spaces; spacing between words has been regularized to one space.</p>
+      </normalization>
+      <normalization source="https://www.newyorker.com/magazine/2017/05/15/the-case-for-black-english">
+        <p>Instances of African American Vernacular English have purposefully NOT been adjusted to comply with American English language practices. African American Vernacular English is wholly valid in its form, features, and creativity, despite the dominance and presumed correctness of American English.</p>
+      </normalization>
+      <p>To represent changes and/or corrections made by the original source authors BEFORE the encoding process, encoders use <gi>add</gi>, <gi>del</gi>, and <gi>subst</gi>.</p>
+      <p>Encoding includes the use of <gi>supplied</gi> to provide clarification and supporting content, including out-links to relevant digital content and citations of Black and Black-centric academic research.</p>
+    </editorialDecl>
+    <projectDesc>
+      <p>This project seeks to identify, collect, preserve, and analyze FREEDOM discourse, as constituted and argued by Black users online. Directed by Dr. Jessica H. Lu, this project is currently being advanced by several undergraduate students at the University of Maryland, College Park: Sophia Crooks, Kayla Graham, Kaanita Iyer, Ariana Lawson, Alice Liu, and Courtney Richardson.</p>
+    </projectDesc>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="AAVE">African American Vernacular English</language>
+        <language ident="us-en">Standard American English</language>
+        <language ident="APSTYLE">Associated Press Style
+          <note>Since this collection aims to gather journalistic work, many publications use the Associated Press Style to standardize their work. The AP Style focuses not only on grammar but format and synxtax. It is important to recognize this as a language because often times journalistic work can appear more rigid and choppy than spoken word or other writing and that is because of AP Style. For example, it eliminates the word "on" and abbrevaites states, address, and dates, just to name a few</note>
+        </language>
+      </langUsage>
+      <particDesc>
+        <listOrg>
+          <org>
+            <orgName ref="#UMD">
+              <name ref="https://lccn.loc.gov/n79054042">University of Maryland, College Park</name>
+              <abbr>UMD</abbr>
+            </orgName>
+            <idno type="LCAF">n 79054042</idno>
+            <placeName>
+              <settlement>College Park</settlement>
+              <region>Maryland (<abbr>MD</abbr>)</region>
+              <country>United States of America (<abbr>USA</abbr>)</country>
+            </placeName>
+            <note>The University of Maryland houses the African American History, Culture and Digital Humanities department, which directs and funds this project.</note>
+          </org>
+          <org>
+            <orgName ref="WAPO">
+              <name>The Washington Post</name>
+            </orgName>
+              <placeName>
+              <settlement>Washington, District of Columbia</settlement>
+              <country>United States of America (<abbr>USA</abbr>)</country>
+            </placeName>
+            <note>The Washington Post is a daily newspaper and newsite that serves and covers the Washington D.C., and bordering parts of Maryland and Virginia extensively, while also placing an emphasis on national and internation news.</note>
+            </org>
+        </listOrg>
+        <listPerson>
+          <person>
+            <persName ref="#SMONROE">
+                <forename>Sylvester</forename>
+                <surname>Monroe</surname>
+              </persName>
+            <note>Sylvester Monroe was a Los Angeles-based reporter for Time magazine when he covered the L.A. riots.</note>
+          </person>
+          <person>
+            <persName xml:id="KING">
+                <forename>Rodney</forename>
+                <surname>King</surname>
+              </persName>
+            <note>Rodney King was allegedly speeding and was pursued by nearly 20 LAPD officers who severely beat him, prompting protests and riots in Los Angeles.</note>
+          </person>
+          <person>
+            <persName xml:id="MIKE">
+                <forename>Michael</forename>
+                <surname>Brown</surname>
+              </persName>
+            <note>Michael Brown was shot by a White police officer in Ferguson, Missouri, prompting similar protests to Baltimore nearly a year earlier.</note>
+          </person>
+          <person>
+            <persName xml:id="RICE">
+                <forename>Tamir</forename>
+                <surname>Rice</surname>
+              </persName>
+            <note>Tamir Rice was 12 years old when he was fatally shot by two White police officers because they thought his toy gun was real.</note>
+          </person>
+          <person>
+            <persName xml:id="ASTER">
+                <forename>Alton</forename>
+                <surname>Sterling</surname>
+              </persName>
+            <note>Thirty-seven-year-old Alton Sterling was shot at a close range by two White police officers in Baton Rouge, Louisana, for allegedly reaching into his pocket for a gun.</note>
+          </person>
+          <person>
+            <persName xml:id="PC">
+                <forename>Philando</forename>
+                <surname>Castile</surname>
+              </persName>
+            <note>Philando Castile was fataly shot by a police officer in Minnesota in front of his girlfriend and four-year-old daughter because he informed the officer that he had a gun but was reaching for is licence and registration after he was told to do so. The officer allegedly thought Castile was reaching for the gun.</note>
+          </person>
+        </listPerson>
+        <personGrp>
+          <persName xml:id="BLK">Black and African American people</persName>
+          <note>The identification and amplification of this person group is necessary for the reading and interpretation of this text because the series of tweets describes the journey of a man at a Black Lives Matter protest and how he felt his status as a full human diminish at that moment, even using the historically negative and hateful word "nigger" to describe the feeling.</note>
+          <persName xml:id="JOURNOS">Black Journalists</persName>
+          <note>As this is a collection of journalist work by Black journalists, it is important to identify this group and recognize that while they are Black people, which makes the protest they cover very personal to them and thus, they are able to make personal connections and often produce better work than journalists of other races covering the same protests, they might always represent the opinion and experiences of all Black people as they do have certain priviliges, including education and a larger voice through their following and support from their publication.</note>
+        </personGrp>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change>Capitalized all refrences of 'white' and 'black' when describing race because it is important to amplify Black people in this project as they have been historically disrespected and discredited and I believe it to be a proper adjective, and I also capitalized 'white' when describing race for consistency.</change>
+        <change>I created xml ids for the victims mentioned in this article to honor their death and also to signify the impact their death had on the community as it prompted protests.</change>
+      </listChange>
+    </revisionDesc>
+    </teiHeader>
+    <text>
+      <body>
+      <p>I could see the fires as soon as I left the First A.M.E. Church in <placeName><settlement>Los Angeles</settlement></placeName> on that spring evening 25 years ago. I was a correspondent for <orgName>Time</orgName> magazine, covering the reaction to the stunning, <date>April 29, 1992</date>, acquittal of four <choice><corr>white</corr><sic>White</sic></choice> Los Angeles police officers charged with the brutal, videotaped beating of <choice><corr>black</corr><sic>Black</sic></choice> motorist <persName ref="#KING">Rodney King.</persName></p>
+      <p>There was no “Black Lives Matter” movement then. But when I arrived at First A.M.E. — the designated meeting place for community leaders and others concerned about what might happen if the police officers were found not guilty — news of the verdicts was already spreading through the city and the frustration and anger among the hundreds of people packed into the church pews was palpable.</p>
+      <p>As community leaders discussed what to do about yet another institutional assault on the value of <choice><corr>black</corr><sic>Black</sic></choice> lives, others had already taken matters into their own hands. At the intersection of Florence and Normandie avenues in <placeName><district>South Central L.A.</district></placeName>, a <choice><corr>black</corr><sic>Black</sic></choice>  mob had dragged a white truck driver named Reginald Denny from the cab of his tractor trailer and beaten him unconscious in the middle of the street.</p>
+      <p>From that now infamous flash point, the violence spread so quickly that when we emerged from First A.M.E. a few miles away, several businesses on Adams Boulevard were burning. As the flames jumped some 40 feet in the air, shotgun-wielding police in riot gear arrived to keep a growing crowd of angry protesters away from the burning buildings and to protect white motorists who were being threatened driving along Adams Boulevard.</p>
+      <p>It soon became clear that it wasn’t safe for one of my <choice><corr>white</corr><sic>White</sic></choice> colleagues, <persName>Sally Donnelly</persName>, to remain in the area. I was also concerned for my then-wife, <persName>Tonju Francois</persName>, a fair-skinned <choice><corr>black</corr><sic>Black</sic></choice> woman who was a producer at KABC Talk Radio. So we got the two women to Tonju’s car and had Sally kneel out of sight in the back seat until they could get out of the area.</p>
+      <p>After Tonju and Sally were gone, I went back to the confrontation between the angry crowd and the police in front of the burning buildings. At a time when cellphones were rare and expensive, I looked for a pay phone to call in to the office. When I reported what was happening, I was told that there were similar scenes across <placeName><district>South L.A.</district></placeName> And though there was no social media or Facebook Live, I was also told that the Time publicity office was asking if I could call in to a radio show in New York to give an on-the-scene account of what was happening on Adams Boulevard.</p>
+      <p>From the pay phone, I called the radio show and recounted how several buildings were burning, and <choice><corr>white</corr><sic>White</sic></choice>drivers and pedestrians were being threatened. I also described how the standoff between the police and the crowd was growing more tense.</p>
+      <p>One young black man was especially agitated, shouting at the police in front of a burning building: “Burn, baby, burn! How you like me now, Mr. <choice><corr>POLICEMAN</corr><sic>Policeman</sic></choice>!”</p>
+      <p>When one officer asked him to move back, he just shouted louder. Then the cop pointed his shotgun at him and ordered him to move back again.</p>
+      <p>“Oh no! You gonna shoot me, Mr. <choice><corr>POLICEMAN</corr><sic>Policeman</sic></choice>! I bet you wanna give me a Rodney King type ass-whipping, don’t you, Mr. <choice><corr>POLICEMAN</corr><sic>Policeman</sic></choice>!”</p>
+      <p>As the officer moved toward the young man, a fellow officer grabbed him by the arm and pulled him back.</p>
+      <p>That would be the police response throughout the city — no confrontations even as the rioting turned to looting. Later that evening as I cruised through South L.A., teaming up with Lester Sloan, an African American photographer for Newsweek, to report on the damage, we encountered a group of men looting a store as the police sat in a squad car a block away watching, but doing nothing. At one point, a couple of looters directed a sinister glare at Lester and me, perhaps thinking that we were police. Then they realized that we were <choice><corr>black</corr><sic>Black</sic></choice>  and flashed the clenched-fist <choice><corr>black</corr><sic>Black</sic></choice> power sign. We flashed it back, and they went back to ransacking a convenience store.</p>
+      <p>As I watched the city burning that night in what would become the worst unrest in U.S.  history — more than 50 dead, 2,000 injured, and nearly $1 billion property damage — I couldn’t help but think how much I identified with the young man screaming at the police officers. His screams echoed decades of pent-up anger and frustration over the use of excessive force by police officers against <choice><corr>black</corr><sic>Black</sic></choice>victims, not just in Los Angeles, but all over the country.</p>
+      <p>Like most <choice><corr>black</corr><sic>Black</sic></choice> boys, I was given “the talk” when I was very young about how to survive an encounter with the police. I was also given a version of it again from a female friend when I moved to L.A. in 1988. She called it “The <choice><corr>black</corr><sic>Black</sic></choice> man’s guide to survival in L.A.” “Rule #1: Do not mess with LAPD.”</p>
+      <p>The furious response to the King verdict also foreshadowed today’s Black Lives Matter movement, which has prompted a new generation of African Americans to protest police brutality.</p>
+      <p>On the third day of the riots, King, who had endured dozens of blows with police batons along with being Tasered and kicked, went on television to appeal for calm, asking in a trembling voice, “Can we all get along?”</p>
+      <p>Five years ago, I interviewed King at the intersection of Florence and Normandie for a special report in Ebony Magazine on the 20th anniversary of the uprising. King, who had been battling alcohol addiction and had frequent run-ins with the law after the beating, had finally published a book, “The Riot Within: My Journey from Rebellion to Redemption.” He seemed to have finally turned his troubled life around. He said he refused to be bitter about the brutal assault on March 3, 1991. But he was deeply hurt by the acquittals.</p>
+      <p>“The day the L.A. riots erupted in the streets of <placeName><district>South Central</district></placeName>, it was like the entire city had finally caught up with what had been simmering inside me for months,” he told me. “The riots changed everything.”</p>
+      <p>Two months after we talked, King was found dead in an L.A. swimming pool on <date>June 17, 2012</date>. He’d drowned with  a combination of alcohol, cocaine, marijuana and PCP in his system, an autopsy found. He was 47 years old.</p>
+      <p>Black people are still protesting police brutality a quarter-century after parts of Los Angeles burned. There are still videos of abusive and murderous police behavior, and officers are still going unpunished for it. The only thing that’s changed are the names. Instead of <persName ref="#KING">Rodney King</persName>, it’s <persName ref='#MIKE'>Michael Brown</persName>, <persName ref="#RICE">Tamir Rice</persName>, <persName ref="#ASTER">Alton Sterling</persName>, <persName ref="PC">Philando Castile</persName>, and so many more.</p>
+    </body>
+  </text>
+</TEI>

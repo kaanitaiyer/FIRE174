@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+      <titleStmt>
+        <title type="main">Fire + Freedom</title>
+        <title type="sub">Freedom + Protest Coverage: Digital Edition</title>
+        <author>
+          <persName xml:id="JLU">
+            <forename>Jessica</forename>
+            <surname>Lu</surname>
+          </persName>
+          <orgName xml:id="AADHum">African American History, Culture, and Digital Humanities (<abbr>AADHum</abbr>) Initiative</orgName>
+        </author>
+      <respStmt>
+        <resp>Encoded by</resp>
+          <persName xml:id="KIYER">
+            <forename>Kaanita</forename>
+            <surname>Iyer</surname>
+          </persName>
+      </respStmt>
+      <respStmt>
+        <resp>Original text transcribed by</resp>
+          <persName ref="#KIYER">
+            <forename>Kaanita</forename>
+            <surname>Iyer</surname>
+          </persName>
+        </respStmt>
+      <respStmt>
+        <resp>Original TEI template provided by</resp>
+          <persName xml:id="RAFF">
+            <forename>Raffaele</forename>
+            <surname>Viglianti</surname>
+          </persName>
+          <orgName xml:id="MITH">Maryland Institute for Technology in the Humanities (<abbr>MITH</abbr>)</orgName>
+        </respStmt>
+      <funder>
+          <orgName xml:id="MELLON">Andrew W. Mellon Foundation</orgName>
+          <orgName xml:id="FIRE">First-Year Innovation and Research Experience (<abbr>FIRE</abbr>)</orgName>
+      </funder>
+    </titleStmt>
+    <editionStmt>
+      <edition n="1">First Edition</edition>
+    </editionStmt>
+    <extent>
+      <measure unit="minutes" quantity="3">3 minutes</measure>
+      <measure unit="seconds" quantity="53">53 seconds</measure> 
+    </extent>
+    <publicationStmt>
+      <publisher>
+        <orgName ref="#AADHum">African American History, Culture, and Digital Humanities (<abbr>AADHUM</abbr>) Initiative</orgName>
+      </publisher>
+      <pubPlace>
+        <settlement>College Park</settlement>
+        <region>Maryland (<abbr>MD</abbr>)</region>
+      </pubPlace>
+      <date when="2018-12-11">11 December 2018</date>
+      <availability status="free">
+          <p>In the public domain.</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+        <title type="main">Encoding for Black Lives: Legacies of Resistance and Reinvention in the (Re)Making of Black Freedom Online</title>
+        <title type="sub">Protest Coverage</title>
+        <respStmt>
+            <resp>Edited by</resp>
+            <persName ref="#JLU">
+              <forename>Jessica</forename>
+              <surname>Lu</surname>
+            </persName>
+        </respStmt>
+        <respStmt>
+            <resp>Texts identified and assembled by</resp>
+            <persName ref="#KIYER">
+              <forename>Kaanita</forename>
+              <surname>Iyer</surname>
+            </persName>
+        </respStmt>
+    </seriesStmt>
+    <sourceDesc>
+      <listBibl>
+      <bibl>
+        <title> type="main">Lemon: 'I'm told someone got shot'</title>
+        <author>
+          <persName xml:id="LEMON">
+            <forename>Don</forename>
+            <surname>Lemon</surname>
+          </persName>
+        </author>
+        <publisher>
+          <orgName xml:id="CNN">
+            <name>CNN</name>
+          </orgName>
+            <placeName>
+            <settlement>Atlanta</settlement>
+            <region>Georgia</region>
+            <country>United States of America (<abbr>USA</abbr>)</country>
+          </placeName>
+        </publisher>
+        <pubPlace>YouTube</pubPlace>
+        <note>YouTube is a "Black place" because it serves as a platform, which is free and accessible to most with a mobile device and internet or cellular data, that allows Black people who have historically been deprived of having a voice to have so by posting videos that can reach a huge community of users.</note>
+        <date when="2014-08-18">18 August 2014</date>
+      </bibl>
+      <bibl xml:id="JLUDISS">
+          <title type="main">Reckoning with Freedom</title>
+          <title type="sub">Legacies of Exclusion, Dehumanization, and Black Resistance in the Rhetoric of the Freedmen's Bureau</title>
+          <author>
+              <persName ref="#JLU">
+                <forename>Jessica</forename>
+                <surname>Lu</surname>
+              </persName>
+          </author>
+          <publisher>
+            <orgName xml:id="UMD">University of Maryland</orgName>
+          </publisher>
+          <pubPlace>
+            <settlement>College Park</settlement>
+            <region>Maryland (<abbr>MD</abbr>)</region>
+            <country>United States of America (<abbr>USA</abbr>)</country>
+          </pubPlace>
+          <date when="2018-06-28">28 June 2018</date>
+      </bibl>
+      <bibl>
+          <interpGrp resp="#LUDISS" type="freedom-ideas">
+              <desc>Ideational analysis of freedom.</desc>
+              <interp xml:id="STRAND1">Strand 1</interp>
+              <interp xml:id="STRAND2">Strand 2</interp>
+              <interp xml:id="STRAND3">Strand 3</interp>
+              <interp xml:id="STRAND4">Strand 4</interp>
+              <interp xml:id="STRAND5">Strand 5</interp>
+          </interpGrp>
+      </bibl>
+      </listBibl>
+      <biblStruct type="article"> <!-- Provided as an example of using the sourceDesc to cite Black scholarship that grounds the encoder's decisions during the markup process. -->
+        <analytic>
+          <author>
+            <persName xml:id="SHART">
+              <forename>Saidiya</forename>
+              <surname>Hartman</surname>
+            </persName>
+          </author>
+          <title>Venus in Two Acts</title>
+        </analytic>
+        <monogr>
+          <title level="j">Small Axe</title>
+          <imprint>
+            <publisher>Duke University Press</publisher>
+            <pubPlace>
+              <settlement>Durham</settlement>
+              <region>North Carolina (<abbr>NC</abbr>)</region>
+              <country>United States of America (<abbr>USA</abbr>)</country>
+            </pubPlace>
+            <date when="2008-06">June 2008</date>
+          </imprint>
+          <biblScope unit="page" from="1" to="14">pp. 1-14</biblScope>
+        </monogr>
+        <note>In this article, Saidiya Hartman theorizes archival violence and its disproportionate impact on the lives of Black women. Hartman argues that archival traces and texts corroborate representations of Black women as always dead or dying, if not in relentless peril. Such violence dehumanizes Black women, not just in the historical record, but also in contemporary life. This theorizing of archival violence contributes to this digital surrogate insofar as every attempt has been made to recognize and amplify the human activities and accomplishments of Black women, with particular attention paid to their life experiences beyond suffering and pain.</note>
+      </biblStruct>
+    </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+    <editorialDecl>
+      <hyphenation eol="none">
+        <p>Except where normalization disrupts the formatting of the digital surrogate when rendered online, all end-of-line hyphenation in the original source material has been reformed. The <gi>choice</gi> element has been used to enclose <gi>orig</gi> and <gi>reg</gi> elements giving the original hyphenation and regularized version, respectively.</p>
+      </hyphenation>
+      <normalization method="markup">
+        <p>All obvious spelling and typographical errors in the original source material is corrected. The <gi>choice</gi> element has been used to enclose <gi>sic</gi> and <gi>corr</gi> elements giving the original error and correction, respectively.</p>
+      </normalization>
+      <normalization method="silent">
+        <p>Whenever necessary, spacing between words and following punctuation has been regularized to zero spaces; spacing between words has been regularized to one space.</p>
+      </normalization>
+      <normalization source="https://www.newyorker.com/magazine/2017/05/15/the-case-for-black-english">
+        <p>Instances of African American Vernacular English have purposefully NOT been adjusted to comply with American English language practices. African American Vernacular English is wholly valid in its form, features, and creativity, despite the dominance and presumed correctness of American English.</p>
+      </normalization>
+      <p>To represent changes and/or corrections made by the original source authors BEFORE the encoding process, encoders use <gi>add</gi>, <gi>del</gi>, and <gi>subst</gi>.</p>
+      <p>Encoding includes the use of <gi>supplied</gi> to provide clarification and supporting content, including out-links to relevant digital content and citations of Black and Black-centric academic research.</p>
+    </editorialDecl>
+    <projectDesc>
+      <p>This project seeks to identify, collect, preserve, and analyze FREEDOM discourse, as constituted and argued by Black users online. Directed by Dr. Jessica H. Lu, this project is currently being advanced by several undergraduate students at the University of Maryland, College Park: Sophia Crooks, Kayla Graham, Kaanita Iyer, Ariana Lawson, Alice Liu, and Courtney Richardson.</p>
+    </projectDesc>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="AAVE">African American Vernacular English</language>
+        <language ident="us-en">Standard American English</language>
+        <language ident="APSTYLE">Associated Press Style
+          <note>Since this collection aims to gather journalistic work, many publications use the Associated Press Style to standardize their work. The AP Style focuses not only on grammar but format and synxtax. It is important to recognize this as a language because often times journalistic work can appear more rigid and choppy than spoken word or other writing and that is because of AP Style. For example, it eliminates the word "on" and abbrevaites states, address, and dates, just to name a few</note>
+        </language>
+      </langUsage>
+      <particDesc>
+        <listOrg>
+          <org>
+            <orgName ref="#UMD">
+              <name ref="https://lccn.loc.gov/n79054042">University of Maryland, College Park</name>
+              <abbr>UMD</abbr>
+            </orgName>
+            <idno type="LCAF">n 79054042</idno>
+            <placeName>
+              <settlement>College Park</settlement>
+              <region>Maryland (<abbr>MD</abbr>)</region>
+              <country>United States of America (<abbr>USA</abbr>)</country>
+            </placeName>
+            <note>The University of Maryland houses the African American History, Culture and Digital Humanities department, which directs and funds this project.</note>
+          </org>
+          <org>
+            <orgName ref="CNN">
+              <name>CNN</name>
+            </orgName>
+              <placeName>
+              <settlement>Atlanta</settlement>
+              <region>Georgia</region>
+              <country>United States of America (<abbr>USA</abbr>)</country>
+            </placeName>
+            <note></note>
+            </org>
+        </listOrg>
+        <listPerson>
+          <person>
+            <persName ref="#LEMON">
+                <forename>Don</forename>
+                <surname>Lemon</surname>
+              </persName>
+            <note>Don Lemon is a journalist and news anchor for CNN who hosts CNN Tonight.</note>
+          </person>
+        </listPerson>
+        <personGrp>
+          <persName xml:id="BLK">Black and African American people</persName>
+          <note>The identification and amplification of this person group is necessary for the reading and interpretation of this text because the series of tweets describes the journey of a man at a Black Lives Matter protest and how he felt his status as a full human diminish at that moment, even using the historically negative and hateful word "nigger" to describe the feeling.</note>
+          <persName xml:id="JOURNOS">Black Journalists</persName>
+          <note>As this is a collection of journalist work by Black journalists, it is important to identify this group and recognize that while they are Black people, which makes the protest they cover very personal to them and thus, they are able to make personal connections and often produce better work than journalists of other races covering the same protests, they might always represent the opinion and experiences of all Black people as they do have certain priviliges, including education and a larger voice through their following and support from their publication.</note>
+        </personGrp>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change>Identify and explain a substantive change, made on INSERT DATE HERE.</change>
+        <change>Indentify and explain the next substantive change, made on INSERT DATE HERE.</change>
+      </listChange>
+    </revisionDesc>
+    </teiHeader>
+    <text>
+    <body>
+      <p>LEMON: There is an abundance of police activity going on here. I'm being told here that someone in the car, that just pulled up in front of us, just got shot. They pulled someone out of the car, where we are, here. Someone was just pulled out of the car. They came down the street and we're told that person got shot. We're being told by police to put these on, to put on our gas masks and, as a matter of fact, I am going to do that because I need to be here.</p>
+        <p>LEMON: Can you help me with this, Mark?</p>
+      <p>LEMON: I need to put, we have been told by CNN management that if something starts to happen that we must protect ourselves and that's exactly what we're going to do. But again, we're told here, and again we need to have that confirmed, that someone in the crowd has been shot.</p>
+        <p>LEMON: Can you help me with this? There we go. So we're going to get that.</p>
+      <p>LEMON: Jake Tapper is down the street in the crowd here, where there were some, some grenades and some tear gas that has been thrown into the crowd and we don't know exactly what's going on but it is really devolving into — let me pull this microphone out. Okay, listen, this is live television. I am okay, well I'll put the mic out. I'm sure the viewers are thinking the same thing that I am that 'better safe than sorry' here.</p>
+      <p>LEMON: But this is what's happening and what can you really say, Mark Lamont Hill? I kmow you would like one of these but what can you really say about what's happening.</p>
+      <p>MARK LAMONT HILL: I mean, and this is what the whole night has been like. It's been fits and starts. There'll be moments of peace and there's one thing, one provacation, and there's this huge response. I mean you just saw people swooped out on that car, search that car, machine guns drawn out on the car. A few minutes before that, police were right here, were literally behind us with guns pointed at the crowd. Not sure exactly what happened. Grenades down, some grenades down there, and up here, and apparently tear gas. The police have just taken the car that they were searching before and driven<corr>drove</corr> away with it. I don't know why or what's going on but that, that was the sight of provacation.</p>
+      <p>LEMON: So again, this has been happening for well over an hour, for about two hours now, and from our perch, we know that we did see someone get out of the car. We're being told that someone got shot in the car and they needed to get out and get some medical attention. Again, that's according, that is according to people in the crowd.</p>
+      <p>LEMON: There are people running down the street, holding their eyes, obviously, as if they were hit by something, obviously, tear gas or have you. There you see someone taking, what appears to me, the side of the port-a-can, right, the port-a-potty to use it as a shield in this crowd.</p>
+      <p>LEMON: So here, women here, visibly crying in the crowd. They are afraid. Obviously, there are security people here who are with us in bulletproof vests and have dawned their gas masks. I have been told by our security people to put on this vest, as well. And it has become increasingly difficult to leave.</p>
+      <p>LEMON: Jake Tapper, Jake you're down in the middle of it. Jake, what do you have for us? You were down in the middle and where tear gas was being thrown. What do you have?</p>
+      <p>JAKE TAPPER: Yeah, it's down where the convinence store was before it was burned down nine days ago, after the shooting of Mike Brown. There was obviously a stand-off between...</p>
+      <note>The video cuts off Jake Tapper.</note>
+        </body>
+  </text>
+</TEI>
